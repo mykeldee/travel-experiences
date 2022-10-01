@@ -1,0 +1,125 @@
+:root {
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  line-height: 20px;
+  background-color:bisque;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  place-items:center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.App {
+  width: 550px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.navbar {
+  background-color: #F55A5A;
+  place-items: center;
+  display: flex;
+  justify-content: center;
+  color: #ffffff ;
+}
+
+.nav--logo {
+  width:24px;
+  height:24px;
+  padding: .5em;
+  will-change: filter;
+}
+
+.travel {
+  display:flex;
+  margin: 25px;
+}
+
+.travel--img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.travel--location {
+  font-size: 10.24px;
+  display: flex;
+}
+
+.travel--location_logo {
+  width: 10px;
+  height: 11.55px;
+  margin: 4px 6px 7px 0px;
+}
+
+.travel--location_title {
+  text-transform: uppercase;
+  margin-right: 10px;
+  letter-spacing: 3px;
+}
+
+.travel--location_google {
+  color: #918E9B
+}
+
+.travel--title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.travel--date {
+  font-size:10.24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.travel--description {
+  width: 325px;
+  font-size: 11px;
+  margin-top: 15px;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
